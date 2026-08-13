@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+body {
+    font-family: 'Inter' , sans-serif;
+    background-color: #F5F7FA;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-page {
+     width: 100;
+    min-height: 100;
+
+}
+
+.register-card{
+    width: 400px;
+    height: 521px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+.register-card h1 {
+    font-size: 24px;
+    font-weight: 700px;
+    color: #000000;
+    margin-bottom: 12px;
+    text-align: right;
+}
+
+.register-card > p {
+font-size: 14px;
+    color: #6B7280;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: right;
+}
+
+.name{
+    margin-bottom: 14px;
+
+}
+
+.name input {
+     border: 1px solid #BDBDBD;
+     border-radius: 8px;
+     padding: 10px 12px;
+     width: 100%;
+     box-sizing: border-box;
+     width: 320px;
+     height: 48px;
+     font-size: 14px;
+     color:  #333333;
+     outline: none;
+     text-align: right;
+     font-family:'Inter' , sans-serif;
+}
+.name input :focus{
+    border-color:   #1976D2;
+}
+
+.name input :hover{
+    border-color: #9E9E9E;
+}
+
+.name input::placeholder{
+color: #9E9E9E;
+}
+
+.phonenumber{
+    margin-bottom: 14px;
+}
+
+.phonenumber input{
+     border: 1px solid #BDBDBD;
+     border-radius: 8px;
+     padding: 10px 12px;
+     width: 100%;
+     box-sizing: border-box;
+     width: 320px;
+     height: 48px;
+     font-size: 14px;
+     color:  #333333;
+     outline: none;
+     text-align: right;
+     font-family:'Inter' , sans-serif;
+}
+
+.phonenumber input:focus{
+    border-color:   #1976D2;
+}
+
+.phonenumber input:hover{
+    border-color: #9E9E9E;
+}
+
+.phonenumber input::placeholder{
+    color: #9E9E9E;
+}
+
+.password{
+    margin-bottom: 30px;
+}
+
+.password input{
+     border: 1px solid #BDBDBD;
+     border-radius: 8px;
+     padding: 10px 12px;
+     width: 100%;
+     box-sizing: border-box;
+     width: 320px;
+     height: 48px;
+     font-size: 14px;
+     color:  #333333;
+     outline: none;
+     text-align: right;
+     font-family:'Inter' , sans-serif;
+}
+
+
+.password input:focus{
+    border-color:   #1976D2;
+}
+
+.password input:hover{
+    border-color: #9E9E9E;
+}
+
+.password input::placeholder{
+    color: #9E9E9E;
+}
+
+form button {
+    width: 100%;
+    width: 320px;
+    height: 48px;
+    background-color: #2563EB;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding-bottom: 7px;
+    font-family:'Inter' , sans-serif;
+}
+
+form button:hover{
+        background-color:  #1565C0;
+}
+
+form a {
+    color: #1976D2;
+    text-decoration: none;
+    font-family:'Inter' , sans-serif;
+}
+
+.login-text{
+    text-align: right;
+    font-size: 14px;
+}
