@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+body {
+    font-family: 'Inter' , sans-serif;
+    background-color: #F5F7FA;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-page {
+    width: 100;
+    min-height: 100;
+
+}
+.login-card {
+    width: 400px;
+    height: 500px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+
+}
+.login-card h1 {
+    font-size: 24px;
+    font-weight: 700px;
+    color: #000000;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.login-card > p {
+    font-size: 14px;
+    color: #6B7280;
+    margin-bottom: 80px;
+}
+.form-email_number {
+    margin-bottom: 14px;
+}
+.form-email_number input {
+
+     border: 1px solid #BDBDBD;
+     border-radius: 8px;
+     padding: 10px 12px;
+     width: 100%;
+     box-sizing: border-box;
+     width: 320px;
+     height: 48px;
+     font-size: 14px;
+     color:  #333333;
+     outline: none;
+
+}
+.form-email_number input:focus {
+    border-color:   #1976D2;
+
+}
+.form-email_number input:hover {
+    border-color: #9E9E9E;
+}
+.form-email_number input::placeholder {
+    color: #9E9E9E;
+}
+
+
+.from-password {
+    margin-bottom: 24px;
+}
+.from-password input {
+    border: 1px solid #BDBDBD;
+     border-radius: 8px;
+     padding: 10px 12px;
+     width: 100%;
+     box-sizing: border-box;
+     width: 320px;
+     height: 48px;
+     font-size: 14px;
+     color:  #333333;
+     outline: none;
+}
+.from-password input:focus{
+    border-color:   #1976D2;
+}
+
+
+.from-password input:hover{
+     border-color: #9E9E9E;
+}
+
+
+.from-password input::placeholder{
+        color: #9E9E9E;
+}
+
+.form-email_number input,
+.from-password input {
+    text-align: right;
+    font-family:'Inter' , sans-serif;
+}
+
+
+form button {
+    width: 100%;
+    width: 320px;
+    height: 48px;
+    background-color: #2563EB;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding-bottom: 7px;
+    font-family:'Inter' , sans-serif;
+}
+
+form button:hover {
+    background-color:  #1565C0;
+}
+
+form a {
+    color: #1976D2;
+    text-decoration: none;
+    font-family:'Inter' , sans-serif;
+}
+
+.register-text {
+    text-align: right;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+
